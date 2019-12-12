@@ -1,25 +1,19 @@
-BeepBoop
+PingPong
 
-input: 6
-output: 1, 2, 3, 4, 5, 6
+input: 3
+output: 1, 2, "ping",
 
-input: 6
-output: "Beep", 2, 3, 4, 5, 6
+input: 5
+output: 1, 2, 3, 4, "pong"
 
-input: 6
-output: "Beep", "boop", 3, 4, 5, 6
+input: 15
+output: ... 14, "ORANGE"
 
-input: 6
-output: "Beep", "boop", "sorry jason...", 4, 5, 6
+input: (3 * 5) 15
+output: ... 14, pong
 
-input: 23
-output: ... "Boop"
+input: (5 * 15) 75
+output: ... 74, ORANGE
 
-input: 21
-output: ... "Boop"
-
-input: 123
-output: .... "I'm sorry Jason..."
-
-input: 45
-output: 45
+input: (15 * 3) 45
+output: ... 44, ORANGE
