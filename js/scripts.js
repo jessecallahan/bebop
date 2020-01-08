@@ -1,9 +1,7 @@
 $(document).ready(function() {
-  $(".submit").click(function(event) {
-
-  event.preventDefault();
-
-
+  $("form#ping-pong").submit(function(event) {
+    event.preventDefault();
+    $(".output").text("");
     var theInput = parseInt($("input#enter").val());
 
 for (var i = 1; i <= theInput; i++) {
@@ -12,13 +10,10 @@ console.log(i)
   //
   //
   //
-
-
-
     if (i % 15 === 0) {
-      $(".output").append("<li>ORANGE</li>");
+      return $(".output").append("<li>ORANGE</li>");
     } else if(i % 5 === 0){
-      $(".output").append("<li>pong</li>");
+       $(".output").append("<li>pong</li>");
     } else if (i % 3 === 0){
       $(".output").append("<li>ping</li>")
     }

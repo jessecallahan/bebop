@@ -6,10 +6,22 @@
   <script src="js/scripts.js"></script>
   <title>Ping Pong Ping Pong Ping Pong</title>
 
-<h1>PING PONG</h1>
-  Enter a number from 1 to play some pong:
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="container">
+          <h3>Games</h3>
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="/Users/jcallahan/Desktop/Code/ping/index.html">Ping Ping</a></li>
+            <li><a href="beep.html">Beep Boop</a></li>
 
-<ul>
+          </ul>
+
+<h1 class = "well" "bg-success">PING PONG</h1>
+
+ <div class= "a"> Enter a number from 1 to play some pong:</div>
+</br>
+<ul class = "bg-warning">
   <li>Numbers divisible by 3 are replaced with "ping"</li>
   <li>Numbers divisible by 5 are replaced with "pong"</li>
   <li>Numbers divisible by 15 are replaced with "ORANGE"</li>
@@ -17,17 +29,20 @@
 <div>
 
 
-<form>
+<form id ="ping-pong">
   <input type="text" id="enter" placeholder="Enter number here...">
-  <button class ="submit" type="submit" value="Submit">Submit</button>
-<button class ="reset" type="reset" value="Reset">Reset</button>
+  <button class ="submit btn-success" type="submit" value="Submit">Submit</button>
+<button class ="reset btn-danger" type="reset" value="Reset">Reset</button>
 </form>
 </div>
 
 <div>
-  <ul class = "output">
+  <ul class = "output bg-success">
+
 
   </ul>
+
+</div>
 
 </div>
 </html>
