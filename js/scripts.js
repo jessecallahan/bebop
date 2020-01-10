@@ -11,7 +11,7 @@ console.log(i)
   //
   //
     if (i % 15 === 0) {
-      return $(".output").append("<li>ORANGE</li>");
+      $(".output").append("<li>ORANGE</li>");
     } else if(i % 5 === 0){
        $(".output").append("<li>pong</li>");
     } else if (i % 3 === 0){
